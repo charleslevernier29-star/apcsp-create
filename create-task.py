@@ -12,7 +12,7 @@ def encode_message(message, key_list):
     return encoded_message
 
 plaintext = input("Enter a message to encode (to decode a message, enter it here and make all the keys negative): ")
-num_of_keys = int(input("Enter how many keys you want to decode your message with: "))
+num_of_keys = int(input("Enter how many keys you want to encode/decode your message with: "))
 keys = []
 
 for i in range(num_of_keys):
